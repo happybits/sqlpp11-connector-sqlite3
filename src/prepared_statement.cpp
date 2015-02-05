@@ -33,7 +33,7 @@
 #include <sstream>
 #include <string>
 
-#if defined(__CYGWIN__)
+#if defined(__CYGWIN__) || defined(__ANDROID__)
 #include <sstream>
 
 // Workaround because cygwin gcc does not define to_string
